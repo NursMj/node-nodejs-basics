@@ -4,7 +4,7 @@ import { createServer as createServerHttp } from 'http';
 import { fileURLToPath } from 'url';
 import a from './files/a.json' assert { type: 'json' };
 import b from './files/b.json' assert { type: 'json' };
-await import('./files/c.js');
+import './files/c.js';
 
 let unknownObject;
 
